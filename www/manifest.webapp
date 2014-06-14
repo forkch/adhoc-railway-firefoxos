@@ -1,0 +1,27 @@
+{
+  "version": "0.1",
+  "name": "AdHoc-Railway",
+  "description": "AdHoc-Railway for FirefoxOS",
+  "launch_path": "/index.html",
+  "type": "privileged",
+  "permissions" : {
+    "tcp-socket" : {
+      "description" : "Create TCP sockets and communicate over them."
+    }
+  },
+  "icons": {
+    "16": "/img/icons/adhoc_railway_16.png",
+    "48": "/img/icons/adhoc_railway_48.png",
+    "128": "/img/icons/adhoc_railway_128.png"
+  },
+  "developer": {
+    "name": "Benjamin Müller",
+    "url": "http://github.com/forkch"
+  },
+  "installs_allowed_from": ["*"],
+  "appcache_path": "/cache.manifest",
+  "locales": {
+
+  },
+  "default_locale": "en"
+}
